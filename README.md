@@ -1,8 +1,8 @@
 
-#Book Recommendation System
+# Book Recommendation System
 This project implements a collaborative filtering-based Book Recommendation System using the Book-Crossing dataset. The system recommends books to users based on similar reading preferences of other users.
 
-##Key Features
+## Key Features
 Cleaned and filtered user ratings to include active users and popular books
 
 Focused on US and Canada users for region-specific recommendations
@@ -13,7 +13,7 @@ Provided real-time book suggestions with author details
 
 Visualized data distribution using histograms
 
-##Technologies Used
+## Technologies Used
 Python, Pandas, NumPy
 
 Scikit-learn (KNN)
@@ -22,7 +22,7 @@ Matplotlib
 
 SciPy (sparse matrix)
 
-##How It Works
+## How It Works
 Load and preprocess data (books, ratings, users)
 
 Create a pivot table (books x users)
